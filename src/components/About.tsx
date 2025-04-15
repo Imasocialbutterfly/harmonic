@@ -1,4 +1,4 @@
-import { Award, Users, Heart } from "lucide-react";
+import { Music, Mic, Users, Heart } from "lucide-react";
 
 export default function About() {
   return (
@@ -6,10 +6,10 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            About Harmonic
+            Amplifying Futures Through Music
           </h2>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Transforming lives through youth development since 2024
+            Empowering youth in South African townships with creative mentorship, industry access, and safe spaces since 2024
           </p>
         </div>
 
@@ -17,34 +17,36 @@ export default function About() {
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-3">
             <div className="text-center">
               <div className="flex justify-center">
+                <Music className="h-12 w-12 text-purple-600" />
+              </div>
+              <h3 className="mt-6 text-xl font-bold">Music as a Catalyst</h3>
+              <p className="mt-2 text-gray-500">
+                Tackling youth unemployment and crime by providing studios, training, and performance opportunities in 
+                <span className="font-semibold"> Mabopane, Soshanguve, and Mamelodi</span>.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="flex justify-center">
+                <Mic className="h-12 w-12 text-purple-600" />
+              </div>
+              <h3 className="mt-6 text-xl font-bold">Tangible Results</h3>
+              <p className="mt-2 text-gray-500">
+                <span className="font-semibold">85% of participants</span> report reduced risky behavior. 
+                <span className="block mt-2">12 artists signed to labels</span>
+                <span className="block">300+ attendees at community concerts</span>
+              </p>
+            </div>
+
+            <div className="text-center">
+              <div className="flex justify-center">
                 <Users className="h-12 w-12 text-purple-600" />
               </div>
-              <h3 className="mt-6 text-xl font-bold">Community Focus</h3>
+              <h3 className="mt-6 text-xl font-bold">Expert Leadership</h3>
               <p className="mt-2 text-gray-500">
-                Working directly within Pretoria townships to create lasting
-                change
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="flex justify-center">
-                <Award className="h-12 w-12 text-purple-600" />
-              </div>
-              <h3 className="mt-6 text-xl font-bold">Proven Impact</h3>
-              <p className="mt-2 text-gray-500">
-                Empowering township youth to thrive by harnessing the power of
-                the entertainment industry through creative mentorship, skills
-                training, and performance opportunities.
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="flex justify-center">
-                <Heart className="h-12 w-12 text-purple-600" />
-              </div>
-              <h3 className="mt-6 text-xl font-bold">Dedicated Team</h3>
-              <p className="mt-2 text-gray-500">
-                Passionate professionals committed to youth development
+                Led by industry professionals like 
+                <span className="font-semibold"> Tshepo Baloyi</span> (music producer) and supported by partnerships with 
+                <span className="font-semibold"> Kalawa Jazmee</span> and local businesses.
               </p>
             </div>
           </div>
@@ -53,10 +55,11 @@ export default function About() {
         <div className="mt-16 text-center">
           <div className="bg-purple-50 rounded-lg p-8">
             <p className="text-sm font-semibold text-purple-600">
-              Registration Details
+              Committed to Transparency
             </p>
-            <p className="mt-2 text-gray-600">NPO Number: 299-916</p>
-            <p className="text-gray-600">Tax Number: 9959488181</p>
+            <p className="mt-2 text-gray-600">Registered NPO: 299-916</p>
+            <p className="text-gray-600">Tax Compliant: 9959488181</p>
+            
           </div>
         </div>
       </div>

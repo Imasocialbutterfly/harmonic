@@ -2,6 +2,7 @@ import About from "@/components/About"
 import Hero from "@/components/Hero"
 import Navbar from "@/components/Navbar"
 import OurWork from "@/components/OurWork"
+import Programs from "@/components/Programs"
 
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <Hero />
       <About />
       <OurWork />
+      <Programs />
     </div>
   )
 }
