@@ -101,7 +101,7 @@ export default function OurWork() {
             Rhythms of Change
           </h2>
           <p className="text-lg text-gray-600">
-            Amplifying potential through music in Mabopane, Soshanguve & Mamelodi
+            Amplifying potential through music in South African Townships
           </p>
         </div>
 

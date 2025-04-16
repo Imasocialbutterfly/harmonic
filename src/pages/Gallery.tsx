@@ -4,8 +4,21 @@ import { useNavigate } from "react-router-dom"
 export default function Gallery() {
   const navigate = useNavigate()
   const concertImages = [
-    "/concert-series/image1.jpg",
-    "/concert-series/image2.jpg",
+    "/concert-series/1.jpg",
+    "/concert-series/2.jpg",
+    "/concert-series/7.jpg",
+    "/concert-series/8.jpg",
+    "/concert-series/9.jpg",
+    "/concert-series/10.jpg",
+    "/concert-series/11.jpg",
+    "/concert-series/12.jpg",
+    "/concert-series/13.jpg",
+    "/concert-series/14.jpg",
+    "/concert-series/15.jpg",
+    "/concert-series/16.jpg",
+    "/concert-series/17.jpg",
+    "/concert-series/18.jpg",
+    "/concert-series/19.jpg",
   ]
 
   return (
@@ -29,9 +42,6 @@ export default function Gallery() {
                 alt={`Concert ${index + 1}`}
                 className="w-full h-64 object-cover"
               />
-              <div className="p-4 bg-white">
-                <p className="text-purple-600 font-medium">Event #{index + 1}</p>
-              </div>
             </div>
           ))}
         </div>
