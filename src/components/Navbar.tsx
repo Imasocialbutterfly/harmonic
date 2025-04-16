@@ -9,10 +9,53 @@ export default function Navbar() {
     <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center gap-2">
             <a href="#home" className="text-2xl font-bold text-purple-600">
               Harmonic
             </a>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="45"
+              height="45"
+              viewBox="0 0 100 100"
+              className="text-purple-600"
+            >
+              <path
+                d="M10,37 V64"
+                stroke="currentColor"
+                stroke-width="5"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M27,30 V70"
+                stroke="currentColor"
+                stroke-width="5"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M44,18 V83"
+                stroke="currentColor"
+                stroke-width="5"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M61,30 V70"
+                stroke="currentColor"
+                stroke-width="5"
+                stroke-linecap="round"
+                fill="none"
+              />
+              <path
+                d="M78,37 V64"
+                stroke="currentColor"
+                stroke-width="5"
+                stroke-linecap="round"
+                fill="none"
+              />
+            </svg>
           </div>
 
           <div className="hidden md:block">

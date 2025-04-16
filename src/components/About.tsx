@@ -22,7 +22,7 @@ export default function About() {
               <h3 className="mt-6 text-xl font-bold">Music as a Catalyst</h3>
               <p className="mt-2 text-gray-500">
                 Tackling youth unemployment and crime by providing studios, training, and performance opportunities in 
-                <span className="font-semibold"> Mabopane, Soshanguve, and Mamelodi</span>.
+                <span className="font-semibold"> Mabopane, Soshanguve, Ga-Rankuwa, Atteridgeville and Mamelodi</span>.
               </p>
             </div>
 
@@ -33,7 +33,7 @@ export default function About() {
               <h3 className="mt-6 text-xl font-bold">Tangible Results</h3>
               <p className="mt-2 text-gray-500">
                 <span className="font-semibold">85% of participants</span> report reduced risky behavior. 
-                <span className="block mt-2">12 artists signed to labels</span>
+                <span className="block mt-2">10 artists signed and co-signed to record labels and publishing groups</span>
                 <span className="block">300+ attendees at community concerts</span>
               </p>
             </div>
@@ -46,7 +46,7 @@ export default function About() {
               <p className="mt-2 text-gray-500">
                 Led by industry professionals like 
                 <span className="font-semibold"> Tshepo Baloyi</span> (music producer) and supported by partnerships with 
-                <span className="font-semibold"> Kalawa Jazmee</span> and local businesses.
+                <span className="font-semibold"> Sweet SmokeZA</span> and local businesses.
               </p>
             </div>
           </div>

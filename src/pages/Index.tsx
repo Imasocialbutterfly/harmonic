@@ -1,4 +1,5 @@
 import About from "@/components/About"
+import Contact from "@/components/Contact"
 import Hero from "@/components/Hero"
 import Navbar from "@/components/Navbar"
 import OurWork from "@/components/OurWork"
@@ -13,6 +14,7 @@ const Index = () => {
       <About />
       <OurWork />
       <Programs />
+      <Contact />
     </div>
   )
 }
