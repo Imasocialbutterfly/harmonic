@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import { useDonationModal } from "@/contexts/DonationModalContext";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { openModal } = useDonationModal();
 
   return (
     <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
@@ -93,6 +95,7 @@ export default function Navbar() {
               <Button
                 variant="default"
                 className="bg-purple-600 hover:bg-purple-700"
+                onClick={openModal}
               >
                 Donate
               </Button>
@@ -142,6 +145,10 @@ export default function Navbar() {
               <Button
                 variant="default"
                 className="w-full bg-purple-600 hover:bg-purple-700 mt-4"
+                onClick={() => {
+                  openModal();
+                  setIsMenuOpen(false);
+                }}
               >
                 Donate
               </Button>

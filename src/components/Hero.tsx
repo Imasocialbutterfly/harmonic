@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useDonationModal } from "@/contexts/DonationModalContext";
 
 export default function Hero() {
+  const { openModal } = useDonationModal();
+
   return (
     <div id="home" className="relative bg-gradient-to-br from-purple-50 to-orange-50 pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
@@ -15,7 +18,9 @@ export default function Hero() {
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div className="rounded-md shadow">
-              <Button className="w-full bg-purple-600 hover:bg-purple-700">
+              <Button className="w-full bg-purple-600 hover:bg-purple-700"
+              onClick={openModal}
+              >
                 Support Our Studios
               </Button>
             </div>
