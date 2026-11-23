@@ -9,7 +9,7 @@ import DonationModal from "@/components/DonationModal";
 const queryClient = new QueryClient();
 
 const App = () => {
-  const clientId = import.meta.env.PAYPAL_CLIENT_ID;
+  const clientId = import.meta.env.VITE_PAYPAL_CLIENT_ID;
 
   if (!clientId) {
     console.error("PayPal Client ID is missing! Check your .env file.");
